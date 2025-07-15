@@ -1,0 +1,42 @@
+version: "3.8"
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: ragentx_api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - session_cache:/app/.session_active
+    depends_on:
+      - qdrant
+      - neo4j
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: ragentx_ui
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - session_cache:/app/.session_active
+    depends_on:
+      - backend
+
+  qdrant:
+    image: qdrant/qdrant:v1.2.0
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+volumes:
+  qdrant_data:
+  session_cache:

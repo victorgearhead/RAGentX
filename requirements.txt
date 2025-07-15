@@ -1,0 +1,16 @@
+llama-index
+nltk
+spacy
+sentence-transformers
+qdrant-client
+rank-bm25
+neo4j
+torch
+transformers
+peft
+pickle5
+fastapi
+uvicorn[standard]
+python-dotenv
+langchain
+streamlit
