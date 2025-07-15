@@ -9,7 +9,7 @@ def backend_url(path):
 if 'session_active' not in st.session_state:
     st.session_state.session_active = False
 
-st.title("🚀 KARAG")
+st.title("🚀 RAGentX")
 
 st.sidebar.header("Session Management")
 if not st.session_state.session_active:
