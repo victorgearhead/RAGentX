@@ -112,6 +112,10 @@ flowchart LR
 ```
 
 ---
+---
+title: RAGentX
+app: https://huggingface.co/spaces/VictorGearhead/RAGentX 
+---
 
 ## ⚙️ Configuration & Streamlit Setup
 
