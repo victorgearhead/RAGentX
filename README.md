@@ -111,10 +111,8 @@ flowchart LR
   L --> M[Final Answer]
 ```
 
----
-title: RAGentX
-app: https://huggingface.co/spaces/VictorGearhead/RAGentX 
----
+RAGentX : https://huggingface.co/spaces/VictorGearhead/RAGentX 
+
 
 ## ⚙️ Configuration & Streamlit Setup
 
