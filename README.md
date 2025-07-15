@@ -25,22 +25,22 @@ Whether you’re indexing documents, spreadsheets, or knowledge bases,  RAGentX 
 
 1. **Truly Hybrid Retrieval (BM42 + Dense)**  
    - **Old way:** BM25 alone misses semantic matches; pure vector search can hallucinate or miss keywords.  
-   - ** RAGentX:** Combines BM25 and dense embeddings in Qdrant for best‑practice recall & precision.
+   - **RAGentX:** Combines BM25 and dense embeddings in Qdrant for best‑practice recall & precision.
 2. **Graph‑RAG for Multi‑Hop Reasoning**  
    - **Old way:** Flat document retrieval can’t answer chained queries.  
-   - ** RAGentX:** Utilizes Neo4j graph traversal to enable true multi‑hop inferencing across entities.
+   - **RAGentX:** Utilizes Neo4j graph traversal to enable true multi‑hop inferencing across entities.
 3. **ReAct + Chain‑of‑Thought (CoT) Orchestration**  
    - **Old way:** Single‑shot LLM prompts produce brittle, hallucination‑prone answers.  
-   - ** RAGentX:** A multi‑tool ReAct loop (_Retrieve, Distill, Graph, LLM, Critique_) yields structured, traceable reasoning.
+   - **RAGentX:** A multi‑tool ReAct loop (_Retrieve, Distill, Graph, LLM, Critique_) yields structured, traceable reasoning.
 4. **PEDRO/LoRA Fine‑Tuned QA**  
    - **Old way:** Full‑model retraining is costly and time‑consuming.  
-   - ** RAGentX:** PEFT/LoRA adapters adapt in minutes on auto‑generated QA pairs, delivering domain‑specific accuracy without heavy compute.
+   - **RAGentX:** PEFT/LoRA adapters adapt in minutes on auto‑generated QA pairs, delivering domain‑specific accuracy without heavy compute.
 5. **Self‑RAG Self‑Critique**  
    - **Old way:** Answers often lack provenance or verification.  
-   - ** RAGentX:** Automatically retrieves evidence, distills context, and prompts the model to critique its own output, drastically reducing hallucinations.
+   - **RAGentX:** Automatically retrieves evidence, distills context, and prompts the model to critique its own output, drastically reducing hallucinations.
 6. **Persistent Session Cache & Dynamic Config**  
    - **Old way:** Rebuilding indices per run loses workspace context.  
-   - ** RAGentX:** Maintains a durable session directory that survives restarts and allows on‑the‑fly hyperparameter tuning via Streamlit.
+   - **RAGentX:** Maintains a durable session directory that survives restarts and allows on‑the‑fly hyperparameter tuning via Streamlit.
 
 ---
 
