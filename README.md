@@ -2,11 +2,12 @@
 
 **RAGentX** fuses **Hybrid Retrieval**, **Knowledge Graphs**, and **Advanced LLM Reasoning** into an end-to-end context‑aware AI agent—optimised for enterprise‑scale, complex unstructured data.
 
-🤖 AI-Powered Document Processing
-Automatic Question Extraction: Upload documents and automatically extract structured questions
-Intelligent Response Generation: Generate contextual responses using your organization's documents
-Multi-Step AI Analysis: Advanced reasoning process that analyzes, searches(dense and sparse), extracts, and synthesizes responses
-Document Understanding: Supports Word, PDF, Excel, and Docs.
+🤖 AI-Powered Document Processing:
+
+- Automatic Question Extraction: Upload documents and automatically extract structured questions
+- Intelligent Response Generation: Generate contextual responses using your organization's documents
+- Multi-Step AI Analysis: Advanced reasoning process that analyzes, searches(dense and sparse), extracts, and synthesizes responses
+- Document Understanding: Supports Word, PDF, Excel, and Docs.
 ---
 
 ## 🎯 Elevator Pitch
