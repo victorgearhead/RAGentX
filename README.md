@@ -118,7 +118,7 @@ flowchart LR
 ```
 
 RAGentX : https://huggingface.co/spaces/VictorGearhead/RAGentX (Runs on 16GB VRAM, might be slow)
-
+(suggested to refer for further debugged code and more features)
 
 ## ⚙️ Configuration & Streamlit Setup
 
