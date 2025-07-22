@@ -111,7 +111,7 @@ flowchart LR
   L --> M[Final Answer]
 ```
 
-RAGentX : https://huggingface.co/spaces/VictorGearhead/RAGentX 
+RAGentX : https://huggingface.co/spaces/VictorGearhead/RAGentX (Runs on 16GB VRAM, might be slow)
 
 
 ## ⚙️ Configuration & Streamlit Setup
