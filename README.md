@@ -17,7 +17,7 @@ RAGentX is a ground-breaking **multi-agent** framework that delivers:
 - **Adapter‑Free Hybrid RAG (BM42 + Dense)** via **Qdrant**, blending high‑precision BM25 matches with semantic embeddings for lightning‑fast recall.
 - **Graph‑RAG**: Leverages **Neo4j** to traverse multi-hop entity relationships, turning data silos into interconnected knowledge webs.
 - **Chain‑of‑Thought (CoT) & ReAct**: Empowers LLMs to _think aloud_, plan actions, call retrieval or graph queries, and dynamically refine answers.
-- **PEDRO/LoRA Fine‑Tuning**: Efficiently adapts QA models (BERT, RoBERTa, T5) on your domain via **PEFT**, using auto‑generated question‑answer pairs.
+- **PEDRO/LoRA Fine‑Tuning**: Efficiently adapts QA models on your domain via **PEFT**, using auto‑generated question‑answer pairs.
 - **Self‑RAG Self‑Critique**: Runs a secondary verification pass—retrieves evidence, distills context, and critiques its own output to eliminate hallucinations.
 - **Contextual Awareness**: Session‑scoped cache, on‑the‑fly distillation, and persistent config empower seamless multi‑turn insights.
 - **Possible Future Updates**: For enterprise scale and more accurate results, it is suggested to use a context window instead of sparse retrieval and also is suggestable to use neo4j graphs for cross-doc links in context windows. This can bring alot of change in retrieval 
