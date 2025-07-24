@@ -20,9 +20,7 @@ RAGentX is a ground-breaking **multi-agent** framework that delivers:
 - **PEDRO/LoRA Fine‑Tuning**: Efficiently adapts QA models (BERT, RoBERTa, T5) on your domain via **PEFT**, using auto‑generated question‑answer pairs.
 - **Self‑RAG Self‑Critique**: Runs a secondary verification pass—retrieves evidence, distills context, and critiques its own output to eliminate hallucinations.
 - **Contextual Awareness**: Session‑scoped cache, on‑the‑fly distillation, and persistent config empower seamless multi‑turn insights.
-
-Whether you’re indexing documents, spreadsheets, or knowledge bases,  RAGentX scales to deliver pinpoint answers—transforming raw data into enterprise intelligence.
-(For enterprise scale and more accurate results, it is suggested to use a context window instead of sparse retrieval and also is suggestable to use neo4j graphs for cross-doc links in context windows.)
+- **Possible Future Updates**: For enterprise scale and more accurate results, it is suggested to use a context window instead of sparse retrieval and also is suggestable to use neo4j graphs for cross-doc links in context windows. This can bring alot of change in retrieval 
 ---
 
 ---
