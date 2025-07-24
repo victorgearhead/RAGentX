@@ -22,7 +22,7 @@ RAGentX is a ground-breaking **multi-agent** framework that delivers:
 - **Contextual Awareness**: Session‑scoped cache, on‑the‑fly distillation, and persistent config empower seamless multi‑turn insights.
 
 Whether you’re indexing documents, spreadsheets, or knowledge bases,  RAGentX scales to deliver pinpoint answers—transforming raw data into enterprise intelligence.
-
+(For enterprise scale and more accurate results, it is suggested to use a context window instead of sparse retrieval and also is suggestable to use neo4j graphs for cross-doc links in context windows.)
 ---
 
 ---
